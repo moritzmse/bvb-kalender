@@ -1,49 +1,43 @@
-
 import os
 import requests
 from ics import Calendar, Event
 from datetime import timedelta
 
 # --- Configuration ---
-API_KEY = "b835824104e32e9364252581d5e56e1b"
-API_URL = "https://v3.football.api-sports.io/fixtures"
-TEAM_ID = 165  # Borussia Dortmund
-LEAGUE_ID = 78  # Bundesliga
-SEASON = 2025
+API_KEY = "0da701f1beac437284b3ba0c0e6c68ec"
+TEAM_ID = 4  # Borussia Dortmund
 ICS_FILE_PATH = os.path.join("docs", "bvb_heimspiele.ics")
 
 # --- Main Script ---
 def fetch_fixtures():
-    """Fetches fixtures from the API-Football."""
+    """Fetches fixtures from the football-data.org API."""
     headers = {
-        "x-rapidapi-host": "v3.football.api-sports.io",
-        "x-rapidapi-key": API_KEY
+        "X-Auth-Token": API_KEY
     }
-    params = {
-        "league": LEAGUE_ID,
-        "season": SEASON,
-        "team": TEAM_ID
-    }
-    response = requests.get(API_URL, headers=headers, params=params)
-    response.raise_for_status()  # Raise an exception for bad status codes
-    return response.json()["response"]
+    api_url = f"https://api.football-data.org/v4/teams/{TEAM_ID}/matches"
+    response = requests.get(api_url, headers=headers)
+    response.raise_for_status()
+    return response.json()["matches"]
 
 def create_calendar(fixtures):
     """Creates an ICS calendar from the fixtures."""
     cal = Calendar()
     for fixture in fixtures:
         # Filter for home games
-        if fixture["teams"]["home"]["id"] == TEAM_ID:
+        if fixture["homeTeam"]["id"] == TEAM_ID:
             event = Event()
-            event.name = f'BVB vs {fixture["teams"]["away"]["name"]}'
-            event.begin = fixture["fixture"]["date"]
+            event.name = f'{fixture["homeTeam"]["name"]} vs {fixture["awayTeam"]["name"]}'
+            event.begin = fixture["utcDate"]
             event.duration = timedelta(hours=2)
             event.location = "Signal Iduna Park, Dortmund"
             
-            competition = fixture["league"]["name"]
-            round_info = fixture["league"]["round"]
-            event.description = f'{competition} - {round_info}'
-            
+            competition = fixture["competition"]["name"]
+            matchday = fixture["matchday"]
+            if matchday:
+                event.description = f"{competition} - Spieltag {matchday}"
+            else:
+                event.description = competition
+
             cal.events.add(event)
     return cal
 
@@ -55,7 +49,7 @@ def save_calendar(cal):
 
 if __name__ == "__main__":
     try:
-        print("Fetching fixtures...")
+        print("Fetching fixtures from football-data.org...")
         all_fixtures = fetch_fixtures()
         
         print("Creating calendar...")
