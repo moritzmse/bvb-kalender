@@ -1,4 +1,3 @@
-
 name: Update BVB Calendar
 
 on:
@@ -15,6 +14,9 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
+      - name: Pull latest changes
+        run: git pull --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -27,8 +29,6 @@ jobs:
 
       - name: Run calendar generation script
         run: python generate_calendar.py
-
-      
 
       - name: Commit and push if it changed
         run: |
