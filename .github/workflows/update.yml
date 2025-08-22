@@ -28,6 +28,9 @@ jobs:
       - name: Run calendar generation script
         run: python generate_calendar.py
 
+      - name: Pull latest changes
+        run: git pull --rebase
+
       - name: Commit and push if it changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
