@@ -28,14 +28,16 @@ jobs:
       - name: Run calendar generation script
         run: python generate_calendar.py
 
-      - name: Pull latest changes
-        run: git pull --rebase
+      
 
       - name: Commit and push if it changed
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'chore(calendar): Update BVB home games calendar'
-          file_pattern: 'docs/bvb_heimspiele.ics'
-          commit_user_name: 'GitHub Actions Bot'
-          commit_user_email: 'actions@github.com'
-          commit_author: 'GitHub Actions Bot <actions@github.com>'
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add docs/bvb_heimspiele.ics
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(calendar): Update BVB home games calendar"
+          git push
