@@ -1,0 +1,36 @@
+
+name: Update BVB Calendar
+
+on:
+  workflow_dispatch: # Allow manual triggering
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run calendar generation script
+        run: python generate_calendar.py
+
+      - name: Commit and push if it changed
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore(calendar): Update BVB home games calendar'
+          file_pattern: 'docs/bvb_heimspiele.ics'
+          commit_user_name: 'GitHub Actions Bot'
+          commit_user_email: 'actions@github.com'
+          commit_author: 'GitHub Actions Bot <actions@github.com>'
