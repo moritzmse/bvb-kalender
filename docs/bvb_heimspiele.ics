@@ -2,44 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 18
+DESCRIPTION:Bundesliga - Spieltag 20
 DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260117T143000Z
-SUMMARY:Borussia Dortmund vs FC St. Pauli 1910
-UID:7cdac95c-58dc-464e-8d5d-bbbe1e3cd410@7cda.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 1
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260217T201500Z
-SUMMARY:Borussia Dortmund vs Atalanta BC
-UID:3759f814-0d54-41b9-b6d0-3c161fc0d8a5@3759.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 17
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260113T193000Z
-SUMMARY:Borussia Dortmund vs SV Werder Bremen
-UID:bd785fe3-ea1e-4338-8a9c-48d4ad280bd6@bd78.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 11
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251122T143000Z
-SUMMARY:Borussia Dortmund vs VfB Stuttgart
-UID:801ecb19-39c3-4a1c-8b80-3300f5520ed3@801e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 4
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20250921T173000Z
-SUMMARY:Borussia Dortmund vs VfL Wolfsburg
-UID:549da327-4686-4aea-be70-bc5f1bb05268@549d.org
+DTSTART:20260201T163000Z
+SUMMARY:Borussia Dortmund vs 1. FC Heidenheim 1846
+UID:89f1e1e3-280f-493f-99b1-1cb6a31226a2@89f1.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bundesliga - Spieltag 6
@@ -47,39 +15,7 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20251004T133000Z
 SUMMARY:Borussia Dortmund vs RB Leipzig
-UID:31cd5a95-9f2e-4e32-b2c6-8db88ef12a12@31cd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 22
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260213T193000Z
-SUMMARY:Borussia Dortmund vs 1. FSV Mainz 05
-UID:47cdd012-f11c-46f1-9597-b2bfc9668001@47cd.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 20
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260201T163000Z
-SUMMARY:Borussia Dortmund vs 1. FC Heidenheim 1846
-UID:77672d97-474d-4243-9244-c720b861b284@7767.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 6
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251210T200000Z
-SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
-UID:9f0e262d-689e-40b5-be20-e303d92a02fc@9f0e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 24
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260228T173000Z
-SUMMARY:Borussia Dortmund vs FC Bayern München
-UID:77500153-ad65-4d3e-84e7-ffcd9c55f933@7750.org
+UID:9fc35548-44b5-4eb6-8b86-ed3bece03367@9fc3.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bundesliga - Spieltag 8
@@ -87,7 +23,7 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20251025T163000Z
 SUMMARY:Borussia Dortmund vs 1. FC Köln
-UID:c2ab7e2c-bbca-44dd-b8fc-3f5f8357fa99@c2ab.org
+UID:9123f01e-f78a-4e12-9f5c-5231591a0971@9123.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bundesliga - Spieltag 26
@@ -95,79 +31,15 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20260314T143000Z
 SUMMARY:Borussia Dortmund vs FC Augsburg
-UID:d5a5f896-d106-4af1-9127-09aa7952418a@d5a5.org
+UID:a63035a5-ab4a-4736-99dc-7c5b98f3d9df@a630.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 15
+DESCRIPTION:Bundesliga - Spieltag 24
 DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251219T193000Z
-SUMMARY:Borussia Dortmund vs Borussia Mönchengladbach
-UID:73378a76-2f69-4f6c-83b3-5d76fb0fb6e8@7337.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 31
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260426T153000Z
-SUMMARY:Borussia Dortmund vs SC Freiburg
-UID:3e360dc7-446b-4169-b353-0a6fd1b76eae@3e36.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 33
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260508T183000Z
-SUMMARY:Borussia Dortmund vs Eintracht Frankfurt
-UID:d5da631e-26a3-4e65-82f9-396259c93c82@d5da.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 29
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260411T133000Z
-SUMMARY:Borussia Dortmund vs Bayer 04 Leverkusen
-UID:52c31a1a-f07c-411b-8685-b256531a50e1@52c3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 5
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251125T200000Z
-SUMMARY:Borussia Dortmund vs Villarreal CF
-UID:9b4712e4-e2a2-42f4-8417-33837ceaf056@9b47.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 27
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260321T173000Z
-SUMMARY:Borussia Dortmund vs Hamburger SV
-UID:2c00832d-0eab-499f-bf15-e4376f3e78a6@2c00.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 8
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260128T200000Z
-SUMMARY:Borussia Dortmund vs FC Internazionale Milano
-UID:3849d30f-b3c5-4a07-880e-d0f7e8b2010b@3849.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Bundesliga - Spieltag 2
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20250831T153000Z
-SUMMARY:Borussia Dortmund vs 1. FC Union Berlin
-UID:cefb0cab-8e99-4dfb-b864-30bb9434a439@cefb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 2
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251001T190000Z
-SUMMARY:Borussia Dortmund vs Athletic Club
-UID:99bf1b13-7905-453b-b115-62bcc4cca92d@99bf.org
+DTSTART:20260228T173000Z
+SUMMARY:Borussia Dortmund vs FC Bayern München
+UID:bb7582f1-fc24-4ea1-9507-99d6fb68159e@bb75.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bundesliga - Spieltag 13
@@ -175,6 +47,134 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20251207T163000Z
 SUMMARY:Borussia Dortmund vs TSG 1899 Hoffenheim
-UID:3461b08e-479d-4986-b007-aaa6a1c07a63@3461.org
+UID:241e8dad-7976-4a60-93aa-a7d2c438917a@241e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 29
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260411T133000Z
+SUMMARY:Borussia Dortmund vs Bayer 04 Leverkusen
+UID:3ab361c2-967b-46c3-8f23-6c99987db8d5@3ab3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 6
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251210T200000Z
+SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
+UID:b1c3e26b-1153-4d6a-add8-17a92f1b3aeb@b1c3.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 17
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260113T193000Z
+SUMMARY:Borussia Dortmund vs SV Werder Bremen
+UID:1771832d-8561-413d-8698-768b5abd1678@1771.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 8
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260128T200000Z
+SUMMARY:Borussia Dortmund vs FC Internazionale Milano
+UID:76fb0b9e-66d4-4dd2-80a9-6d9343630fe3@76fb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 2
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20250831T153000Z
+SUMMARY:Borussia Dortmund vs 1. FC Union Berlin
+UID:276e8b9a-bab0-4abd-930e-0c673f9ae37f@276e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 31
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260426T153000Z
+SUMMARY:Borussia Dortmund vs SC Freiburg
+UID:324df1a5-0712-46e5-959c-ce3adce94516@324d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 22
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260213T193000Z
+SUMMARY:Borussia Dortmund vs 1. FSV Mainz 05
+UID:018bd03d-06ae-49cb-8dfb-c62fa36fde57@018b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 33
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260508T183000Z
+SUMMARY:Borussia Dortmund vs Eintracht Frankfurt
+UID:c72286f4-603e-429c-a9ed-b6ea33632718@c722.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 11
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251122T143000Z
+SUMMARY:Borussia Dortmund vs VfB Stuttgart
+UID:974d6d10-9324-4d8d-b359-a6276701c682@974d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 4
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20250921T173000Z
+SUMMARY:Borussia Dortmund vs VfL Wolfsburg
+UID:cd8778e5-c979-49af-b2dc-8212e72fa195@cd87.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 27
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260321T173000Z
+SUMMARY:Borussia Dortmund vs Hamburger SV
+UID:81e0e84f-72d9-4d9c-8a4e-57a6d1e4d09b@81e0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 5
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251125T200000Z
+SUMMARY:Borussia Dortmund vs Villarreal CF
+UID:f08127e4-62bf-421b-ac14-c16bb07c22c1@f081.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 15
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251219T193000Z
+SUMMARY:Borussia Dortmund vs Borussia Mönchengladbach
+UID:91c9b981-3d5c-4de5-b339-2a9d40e747ea@91c9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 1
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260217T201500Z
+SUMMARY:Borussia Dortmund vs Atalanta BC
+UID:6a2ab931-a9f0-4396-bce4-19e539560fef@6a2a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bundesliga - Spieltag 18
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260117T143000Z
+SUMMARY:Borussia Dortmund vs FC St. Pauli 1910
+UID:210c144f-7f49-426b-b133-b7a2f8bb58b9@210c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 2
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251001T190000Z
+SUMMARY:Borussia Dortmund vs Athletic Club
+UID:0c409b36-dfd8-4cb3-b825-bde57b1e762d@0c40.org
 END:VEVENT
 END:VCALENDAR
