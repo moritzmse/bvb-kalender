@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 1
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20260217T201500Z
+SUMMARY:Borussia Dortmund vs Atalanta BC
+UID:c77f7ca0-d10e-461d-b38b-c228f168fec1@c77f.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League - Spieltag 8
 DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20260128T200000Z
 SUMMARY:Borussia Dortmund vs FC Internazionale Milano
-UID:f1ae761f-5ae3-4ccc-905e-e4369306ccd0@f1ae.org
+UID:5e31d71e-b007-4dac-bbc3-cef3e75cf971@5e31.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League - Spieltag 2
@@ -15,23 +23,7 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20251001T190000Z
 SUMMARY:Borussia Dortmund vs Athletic Club
-UID:d5b81dc4-b726-4dd9-bddf-7bc216515446@d5b8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 6
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251210T200000Z
-SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
-UID:2f8e548a-a482-45dd-9d13-f6a8b5e72a30@2f8e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 1
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20260217T201500Z
-SUMMARY:Borussia Dortmund vs Atalanta BC
-UID:a113a0a1-cf76-4b89-af15-11dc71ef2072@a113.org
+UID:2382fdc9-12f5-412d-85c6-3f2fc15291ef@2382.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League - Spieltag 5
@@ -39,6 +31,14 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20251125T200000Z
 SUMMARY:Borussia Dortmund vs Villarreal CF
-UID:f1337d05-234d-448f-8481-62691a87a66c@f133.org
+UID:30eaabdc-bd31-48f5-ba48-4c91786c8ba1@30ea.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 6
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251210T200000Z
+SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
+UID:a8a68184-4ca8-4068-91f1-8310a3dc644e@a8a6.org
 END:VEVENT
 END:VCALENDAR
