@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 2
+DESCRIPTION:UEFA Champions League - Spieltag 5
 DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251001T190000Z
-SUMMARY:Borussia Dortmund vs Athletic Club
-UID:e7ebca3a-66f6-4204-8347-1f20117853ae@e7eb.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 6
-DURATION:PT2H
-LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251210T200000Z
-SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
-UID:150c358a-0b58-4c65-ad39-69f5991d580a@150c.org
+DTSTART:20251125T200000Z
+SUMMARY:Borussia Dortmund vs Villarreal CF
+UID:534889f0-7c56-47b8-9c7b-0c3caf085e8e@5348.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League - Spieltag 1
@@ -23,7 +15,7 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20260217T201500Z
 SUMMARY:Borussia Dortmund vs Atalanta BC
-UID:8ca8ee43-b965-49d2-915a-ef56d33b8629@8ca8.org
+UID:d4b8ccfd-762e-4197-92a2-84cd1701ca5e@d4b8.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League - Spieltag 8
@@ -31,14 +23,22 @@ DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
 DTSTART:20260128T200000Z
 SUMMARY:Borussia Dortmund vs FC Internazionale Milano
-UID:cb48d0a1-c607-49aa-a93f-624aa4d76e13@cb48.org
+UID:edf0151d-547b-43d1-bab5-9380475b842d@edf0.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League - Spieltag 5
+DESCRIPTION:UEFA Champions League - Spieltag 6
 DURATION:PT2H
 LOCATION:Signal Iduna Park\, Dortmund
-DTSTART:20251125T200000Z
-SUMMARY:Borussia Dortmund vs Villarreal CF
-UID:44672820-5224-448c-a8fc-08f6a39e5f52@4467.org
+DTSTART:20251210T200000Z
+SUMMARY:Borussia Dortmund vs FK Bodø/Glimt
+UID:4b34dce9-159e-463d-a236-9f9d9f365d17@4b34.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:UEFA Champions League - Spieltag 2
+DURATION:PT2H
+LOCATION:Signal Iduna Park\, Dortmund
+DTSTART:20251001T190000Z
+SUMMARY:Borussia Dortmund vs Athletic Club
+UID:91f4e73b-8fbe-420a-b4ce-edcde873c6b9@91f4.org
 END:VEVENT
 END:VCALENDAR
